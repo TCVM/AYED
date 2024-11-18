@@ -1,0 +1,44 @@
+2.- Defina árbol binario completo y árbol binario lleno. Ejemplifique. ¿Es verdad que todo árbol
+binario completo es lleno? ¿Y viceversa?
+
+Árbol lleno: Dado un árbol T de grado k y altura
+			 h, diremos que T es lleno si cada nodo interno
+			 tiene grado k y todas las hojas están en el mismo
+			 nivel (h).
+			 Traduccion: Un arbol lleno es un arbol que tiene todas sus
+			 			 hojas al mismo nivel y si todos los nodos tienen
+			 			 la misma cantidad de hijos.
+			 
+Árbol completo: Dado un árbol T de grado k y altura
+				h, diremos que T es completo si es lleno de altura h-1
+				y el nivel h se completa de izquierda a derecha.
+				Traduccion: Un Arbol completo es un arbol lleno hasta
+							su anteultimo nivel y que puede tener su
+							su ultimo nivel con 1 o mas nodos de izqui-
+							quierda a derecha.
+							
+Un arbol completo puede ser un arbol lleno, un arbol lleno 
+no es uno completo.
+
+
+Arbol completo
+
+
+
+    	A							
+       / \						
+      /   \
+     B     C
+    / \   / \
+   D   E F   G
+  / \
+ H   I
+ 
+ arbol lleno
+ 
+ 		A
+       / \
+      /   \
+     B     C
+    / \   / \
+   D   E F   G

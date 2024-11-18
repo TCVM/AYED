@@ -1,0 +1,19 @@
+PostOrden:
+	AGEFBJIHCD
+
+INORDEN:
+	ABGEFDJHIC
+	
+DECENDIENTES DE C?
+
+			D
+		  /   \
+		 B	   C
+		/ \   /
+	   A   F H
+		  / / \
+		 E J   I
+		/
+	   G
+	   
+Tiene 3 descendientes
